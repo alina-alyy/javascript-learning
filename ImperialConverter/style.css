@@ -1,0 +1,86 @@
+body{
+
+    background: #F4F4F4;    
+    height: 100%;
+    margin: 0; 
+    padding: 10px;    
+}
+.upperRectangle{
+    height: 45%;
+    width: 100%;
+    background: #6943FF;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+html{
+    min-height:100vh;
+    height: 100%;
+}
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#user-input{
+    width: 15%;
+    height: 100px;
+    border: none;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    width: 15%;
+    height: 45px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+#rectangle{
+    width: 100%;
+    height: 110px;
+    background: white; 
+    float: left;   
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+::placeholder { 
+    color: white;
+}
+.head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px; 
+    color: #5A537B;
+
+}
+.supporting-head{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+
+}
